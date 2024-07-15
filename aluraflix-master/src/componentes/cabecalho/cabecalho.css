@@ -1,0 +1,27 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #262626;
+    color: white;
+    box-shadow: 0 4px 10px rgba(128, 0, 128, 0.5);
+}
+
+.cabecalho img {
+    height: 40px;
+}
+
+.cabecalho button {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cabecalho button:hover {
+    background-color: #800080;
+}

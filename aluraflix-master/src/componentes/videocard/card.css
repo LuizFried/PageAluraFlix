@@ -1,0 +1,41 @@
+.video-card {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom right, #4b0082, #800080);
+}
+
+.video-card iframe {
+    display: block;
+    width: 100%;
+    height: 150px;
+    border: none;
+}
+
+.card-info {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.card-info h3 {
+    margin-bottom: 5px;
+}
+
+.card-info p {
+    font-size: 0.9rem;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff;
+}
